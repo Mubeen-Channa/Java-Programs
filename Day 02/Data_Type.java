@@ -28,5 +28,11 @@ public class Data_Type
 
         // 1. Primitive data types      - includes byte, short, int, long, float, double, boolean and char.
         // 2. Non-primitive data types  - such as String, Arrays and Classes.
+
+
+       // Auto Initialize Varaiable 
+       //        var a=10;
+       //        var b='c';
+       //        var c=10.77f;
     }
 }

@@ -1,0 +1,55 @@
+Loops are fundamental programming constructs that allow you to execute a block of code multiple times.
+They are essential for tasks that require repetition, such as iterating over data structures, performing calculations, or automating repetitive tasks.
+
+
+Types of Loops
+1. For Loop
+
+Synatx:
+for (initialization; condition; update) {
+    // code to be executed
+}
+
+Example:
+for (initialization; condition; update) {
+    // code to be executed
+}
+
+
+2. While Loop : Used when the number of iterations is not known and depends on a condition.
+
+Syntax:
+int i = 0;
+while (i < 10) {
+    System.out.println(i);
+    i++;
+}
+
+
+3. Do While Loop : Similar to the while loop, but ensures that the code block is executed at least once.
+
+Syntax:
+do {
+    // code to be executed
+} while (condition);
+
+Example:
+int i = 0;
+do {
+    System.out.println(i);
+    i++;
+} while (i < 10);
+
+
+4. For Each Loop: is a simpler way to iterate over elements in an array or a collection. It is particularly useful when you do not need to manipulate the loop counter or the elements directly.
+
+Syntax:
+for (type variable : collection) {
+    // code to be executed for each element
+}
+
+Example:
+int[] numbers = {1, 2, 3, 4, 5};
+for (int number : numbers) {
+    System.out.println(number);
+}
