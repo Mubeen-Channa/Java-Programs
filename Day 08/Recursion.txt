@@ -1,0 +1,6 @@
+Theory of Recursion:
+Recursion is a programming technique where a function calls itself to solve a problem. It breaks down a complex problem into simpler subproblems. Each recursive call reduces the size of the problem until it reaches a base case, which is a condition that stops the recursion.
+
+Key Components of Recursion:
+1. Base Case: A condition that stops the recursion.
+2. Recursive Case: The part of the function that includes the recursive call.
